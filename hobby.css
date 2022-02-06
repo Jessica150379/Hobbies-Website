@@ -1,0 +1,374 @@
+.container {
+  width: 100%;
+  margin-top: 0;
+  background-color: lightgray;
+  font-family: cursive;
+}
+
+header {
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  height: 130px;
+  margin-left: 5px;
+  border-radius: 15px;
+}
+
+.pageheading {
+  font-size: 30pt;
+  text-align: center;
+  margin-top: -120px;
+  padding-top: -10px;
+  font-family: cursive;
+  color: white;
+}
+
+nav {
+  background-color: #3d3b3b;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-color: whitesmoke;
+  margin-left: -21%;
+}
+
+.navlinks {
+  list-style: none;
+  font-size: 12pt;
+  float: right;
+  margin-top: -10px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 170px;
+  margin-right: 50px;
+}
+
+li {
+  font-size: 10pt;
+}
+
+nav a {
+  text-decoration: none;
+  color: red;
+  font-family: cursive;
+}
+
+nav a:hover, .afrolatinext:hover, .email:hover {
+  color: grey;
+}
+
+.about, .kizomba, .salsa, .saveforlater {
+  margin-right: -100px;
+}
+
+.sliderimg {
+  height: 100%;
+  width: 50%;
+  margin-left: 25%;
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px;
+}
+
+.slider1 {
+  background-color: red;
+  height: 400px;
+}
+
+.slider2 {
+  background-color: #050566;
+  height: 400px;
+}
+
+.slider3 {
+  background-color: black;
+  height: 400px;
+}
+
+.slider4 {
+  background-color: darkgrey;
+  height: 400px;
+}
+
+.slider5 {
+  background-color: red;
+  height: 400px;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  height: 50%;
+  margin: 0;
+  left: 0;
+  margin-top: -20px;
+  -webkit-animation: 10s slider infinite;
+          animation: 10s slider infinite;
+}
+
+#slider figure .slider1, .slider2, .slider3, .slider4, .slider5 {
+  width: 20%;
+  float: left;
+}
+
+#slider {
+  margin-top: 150px;
+}
+
+@-webkit-keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+.dancepage {
+  text-align: center;
+  background-color: #f8f0e3;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -30px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 30pt;
+  color: red;
+  text-align: center;
+}
+
+p, .form-check-label {
+  font-size: 12pt;
+  font-family: cursive;
+}
+
+.video {
+  border-radius: 20px;
+}
+
+.afro {
+  padding-top: 450px;
+}
+
+#afrodiv {
+  text-align: center;
+  background-color: #f8f0e3;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.afrolatinext, .email {
+  text-decoration: none;
+  color: red;
+}
+
+.dancequotesdiv {
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.dancingquotesimg {
+  width: 700px;
+  height: 400px;
+  border-radius: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.backtohome, .backtotop {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.backtohome:hover, .backtotop:hover {
+  color: darkgrey;
+}
+
+.backtotop {
+  margin-left: 80%;
+}
+
+.form-check {
+  text-align: left;
+  margin-left: 23%;
+}
+
+.subscribe {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.subscribehead {
+  text-align: center;
+}
+
+.mb-3 {
+  margin-left: 23%;
+  padding-right: 200px;
+}
+
+.submit {
+  color: white;
+  background-color: darkgrey;
+  border-color: white;
+}
+
+.submit:hover {
+  background-color: lightgray;
+}
+
+.quote2 {
+  float: right;
+  margin-right: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 6px 6px 6px #e7e3e3;
+          box-shadow: 2px 6px 6px 6px #e7e3e3;
+}
+
+.quote1 {
+  float: left;
+  margin-left: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 6px 6px 6px #e7e3e3;
+          box-shadow: 2px 6px 6px 6px #e7e3e3;
+}
+
+.subscribecontents {
+  background-color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 50px;
+  -webkit-box-shadow: 2px 6px 6px 6px #e7e3e3;
+          box-shadow: 2px 6px 6px 6px #e7e3e3;
+}
+
+#comment {
+  padding-bottom: 70px;
+}
+
+#feedback {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: blanchedalmond;
+  padding: 100px;
+}
+
+.jessica {
+  height: 280px;
+  width: 230px;
+}
+
+.contactcontents {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact {
+  font-size: 20pt;
+}
+
+table {
+  margin-left: 40%;
+}
+
+.contactform {
+  padding-right: 100px;
+  padding-bottom: 15px;
+}
+
+.getInTouch {
+  background-color: #927d7d;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contactformMessage {
+  padding-bottom: 100px;
+  padding-right: 150px;
+}
+
+.submit {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=hobby.css.map */
