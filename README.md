@@ -1,8 +1,4 @@
 <!-- vscode-markdown-toc -->
-* 1. [Installation](#Installation)
-* 2. [Usage/Examples](#UsageExamples)
-* 3. [Screenshots](#Screenshots)
-* 4. [Credits](#Credits)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -15,7 +11,12 @@ This website is a showcase of my main hobby which is Afrolatin dancing.
 
 Information and educational purposes of 3 different types of Afrolatin dance styles namely Salsa,Bachata and Kizomba as well as where you can learn these dance styles in Cape Town, Western Cape.
 
-#Table of contents
+# Table of contents
+* 1. [Installation](#Installation)
+* 2. [Usage/Examples](#UsageExamples)
+* 3. [Screenshots](#Screenshots)
+* 4. [Credits](#Credits)
+
 
 
 
